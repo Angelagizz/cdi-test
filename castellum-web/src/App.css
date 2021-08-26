@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  padding: 5vw;
+  background-color: #F5F5DC;
+  min-height: 150vh;
+}
+.kolom {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+.kolom input {
+  width: 20vw;
+  height: 2vw;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+}
+.kolom button {
+  width: 5vw;
+  /* font-size: 16px; */
+}
+.answer {
+  background-color: white;
+  max-width: 30vw;
+  min-height: 20vw;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 3vw;
+}
+.answer p {
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+  font-size: 20px;
+  font-weight: bold;
+}
+.result {
+  color: #DEB887;
+  font-weight: bold;
+  font-size: 20px;
+}
+.again {
+  margin-top: 5vw;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
